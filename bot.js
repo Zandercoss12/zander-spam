@@ -23,7 +23,7 @@ client.on("message", async message => {
       message.guild.channels.find("name", "zander-spam").sendMessage("<@257337698338078721>");
       message.guild.channels.find("name", "zander-spamming").sendMessage("<@257337698338078721>");
       message.guild.channels.find("name", "zander-spammer").sendMessage("<@257337698338078721>");
-      message.guild.channels.find("name", "tyriny-spam").sendMessage("<@168287706021888000>");
+//      message.guild.channels.find("name", "tyriny-spam").sendMessage("<@168287706021888000>");
     }
     message.channel.sendMessage("```css\nSpamming Zandercross12!```");
   }
