@@ -19,8 +19,8 @@ client.on("message", async message => {
   if (command === "spam") {
     for (i = 0; i < 100; i++) {
     message.channel.sendMessage("<@257337698338078721>");
-      break;
     }
+    break;
   }
 
 });
