@@ -5,7 +5,7 @@ const config = require("./config.json");
 // Vars Here \\
 
 client.on('ready', () => {
-  client.user.setPresence({game: {name: "-+help for commands!", type: 0}});
+  client.user.setPresence({game: {name: "zander: < command start", type: 0}});
   console.log('I am ready!');
 });
 
