@@ -26,6 +26,10 @@ client.on("message", async message => {
     }
     message.channel.sendMessage("```css\nSpamming Zandercross12!```");
   }
+  
+  if (command === "help") {
+    message.channel.sendMessage("`zander:spam` = Spams Zander\n`zander:help` = Displays this help menu\n`More changes will come soon`");
+  }
 
 });
 
