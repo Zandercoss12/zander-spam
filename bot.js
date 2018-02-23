@@ -17,10 +17,7 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
   
   if (command === "spam") {
-  	for (int i = 0; i < 100; i++) {
   		message.channel.sendMessage("@Zandercross12#7714");
-        break;
-  	}
   }
 
 });
