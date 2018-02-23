@@ -20,6 +20,16 @@ client.on("message", async message => {
     var i;
     for (i = 0; i < 100; i++) {
     message.channel.sendMessage("<@257337698338078721>");
+    message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
+      message.channel.sendMessage("<@257337698338078721>");
       break;
     }
   }
