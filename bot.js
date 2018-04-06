@@ -17,7 +17,7 @@ client.on("message", async message => {
   const command = args.shift().toLowerCase();
   
   if (command === "spam") {
-    var i;
+    let i;
     for (i = 0; i < 20000; i++) {
     message.guild.channels.find("name", "spam-zander").sendMessage("<@257337698338078721>");
       message.guild.channels.find("name", "zander-spam").sendMessage("<@257337698338078721>");
